@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "AuthAPI.Controllers.UserAuthController",
+    "Method": "GetAllUser",
+    "RelativePath": "api/UserAuth/GetAllUser",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthAPI.Controllers.UserAuthController",
     "Method": "Login",
     "RelativePath": "api/UserAuth/Login",
     "HttpMethod": "POST",
@@ -13,6 +23,16 @@
         "IsRequired": true
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AuthAPI.Controllers.UserAuthController",
+    "Method": "Logout",
+    "RelativePath": "api/UserAuth/Logout",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   },
   {

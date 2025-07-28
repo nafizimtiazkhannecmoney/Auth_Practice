@@ -7,6 +7,26 @@
       "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\controllers\\userauthcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\model\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\model\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,20 +39,8 @@
       "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\model\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\data\\identitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\migrations\\20250720093146_createidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\migrations\\20250720093146_createidentitytables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|solutionrelative:authapi\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}|AuthAPI\\AuthAPI.csproj|h:\\project nafinec git\\auth_practice\\auth api and ui\\authentication\\authapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -50,11 +58,35 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "AuthAPI\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "AuthAPI\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T11:26:39.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "userListDTO.cs",
+              "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Model\\userListDTO.cs",
+              "RelativeDocumentMoniker": "AuthAPI\\Model\\userListDTO.cs",
+              "ToolTip": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Model\\userListDTO.cs",
+              "RelativeToolTip": "AuthAPI\\Model\\userListDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-27T06:33:49.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Model\\LoginDTO.cs",
               "RelativeDocumentMoniker": "AuthAPI\\Model\\LoginDTO.cs",
@@ -66,7 +98,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "RegisterDTO.cs",
               "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Model\\RegisterDTO.cs",
               "RelativeDocumentMoniker": "AuthAPI\\Model\\RegisterDTO.cs",
@@ -84,14 +116,14 @@
               "RelativeDocumentMoniker": "AuthAPI\\Controllers\\UserAuthController.cs",
               "ToolTip": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Controllers\\UserAuthController.cs",
               "RelativeToolTip": "AuthAPI\\Controllers\\UserAuthController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvx8AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-20T09:36:26.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "20250720093146_CreateIdentityTables.cs",
               "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Migrations\\20250720093146_CreateIdentityTables.cs",
               "RelativeDocumentMoniker": "AuthAPI\\Migrations\\20250720093146_CreateIdentityTables.cs",
@@ -103,7 +135,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\appsettings.json",
               "RelativeDocumentMoniker": "AuthAPI\\appsettings.json",
@@ -111,11 +143,12 @@
               "RelativeToolTip": "AuthAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-20T07:29:18.253Z"
+              "WhenOpened": "2025-07-20T07:29:18.253Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "AuthAPI\\Data\\ApplicationUser.cs",
@@ -123,11 +156,12 @@
               "RelativeToolTip": "AuthAPI\\Data\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T07:21:45.593Z"
+              "WhenOpened": "2025-07-20T07:21:45.593Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "IdentityDbContext.cs",
               "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Data\\IdentityDbContext.cs",
               "RelativeDocumentMoniker": "AuthAPI\\Data\\IdentityDbContext.cs",
@@ -135,11 +169,12 @@
               "RelativeToolTip": "AuthAPI\\Data\\IdentityDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-20T07:18:09.742Z"
+              "WhenOpened": "2025-07-20T07:18:09.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Program.cs",
               "RelativeDocumentMoniker": "AuthAPI\\Program.cs",
@@ -151,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "launchSettings.json",
               "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "AuthAPI\\Properties\\launchSettings.json",
@@ -163,7 +198,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "AuthAPI.csproj",
               "DocumentMoniker": "H:\\Project Nafinec Git\\Auth_Practice\\Auth API and UI\\Authentication\\AuthAPI\\AuthAPI.csproj",
               "RelativeDocumentMoniker": "AuthAPI\\AuthAPI.csproj",

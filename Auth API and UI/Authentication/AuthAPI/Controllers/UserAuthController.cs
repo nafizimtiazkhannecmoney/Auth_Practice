@@ -1,8 +1,13 @@
-﻿using AuthAPI.Data;
+﻿using System.IdentityModel.Tokens.Jwt;
+using System.Security.Claims;
+using System.Text;
+using AuthAPI.Data;
 using AuthAPI.Model;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
 
 namespace AuthAPI.Controllers
 {
@@ -87,9 +92,58 @@ namespace AuthAPI.Controllers
             return Ok(new { success = true,  token});
         }
 
+        // This method should generate a JWT token for the user
         private string GenerateJWTToken(ApplicationUser user)
         {
-            return "Generated JWT Token- Test "; // Implement JWT token generation logic here
+            var Claims = new[] 
+            {
+                new Claim(JwtRegisteredClaimNames.Sub, user.Id),
+                new Claim(JwtRegisteredClaimNames.Email, user.Email!),
+                new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString()),
+                new Claim("name", user.Name)
+            };
+
+            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]!));
+
+            var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+
+            var token = new JwtSecurityToken(
+                claims: Claims,
+                expires: DateTime.Now.AddMinutes(int.Parse(_configuration["Jwt:ExpirationMinutes"]!)),
+                signingCredentials: creds,
+                issuer: _configuration["Jwt:Issuer"],
+                audience: _configuration["Jwt:Audience"]
+                //issuedAt: DateTime.UtcNow
+                );
+            return new JwtSecurityTokenHandler().WriteToken(token);
+        }
+
+
+
+
+        [HttpGet("GetAllUser")]
+        public async Task<IActionResult> GetAllUser()
+        {
+            var users =  await _userManager.Users.ToListAsync();
+
+            if (users == null || !users.Any())
+            {
+                return NotFound("No Users Found");
+            }
+            var userLsit = users.Select(u => new userListDTO
+            {
+                Id = u.Id,
+                Email = u.Email,
+                Name = u.Name
+            }).ToList();
+            return Ok(userLsit);
+        }
+
+        [HttpPost("Logout")]
+        public async Task<IActionResult> Logout()
+        {
+            await _signInManager.SignOutAsync();
+            return Ok("User Logged Out Successfully");
         }
     }
 }

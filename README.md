@@ -7,10 +7,10 @@ Microsoft.EntityFrameworkCore.Tools
 Microsoft.AspNetCore.Identity.EntityFrameworkCore
 Microsoft.AspNetCore.Authentication.JwtBearer
 
-For Swagger
-Swashbuckle.AspNetCore
+For Swagger Use This Nuget
+=> Swashbuckle.AspNetCore
 
-
+Add This Code To Enable Swagger
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
@@ -22,8 +22,9 @@ if (app.Environment.IsDevelopment())
 }
 
 
-=> Endpoint : https://localhost:7085/swagger/
+=> Endpoint : https://localhost:7085/swagger/   (After The URL add /swagger)
 
 ****.
-Add-Migration CreateIdentityTables
-Update-Database
+=> Migration for The Identity Tables
+	Add-Migration CreateIdentityTables
+	Update-Database
