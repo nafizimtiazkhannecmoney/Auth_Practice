@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36301.6 d17.14
+VisualStudioVersion = 17.14.36301.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthAPI", "AuthAPI\AuthAPI.csproj", "{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthUI", "AuthUI\AuthUI.csproj", "{D64DD7E9-EBE0-4DF3-ADDB-126A68F50234}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A0C576D-AA5E-4EF3-934E-3E78ED9BED72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64DD7E9-EBE0-4DF3-ADDB-126A68F50234}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64DD7E9-EBE0-4DF3-ADDB-126A68F50234}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64DD7E9-EBE0-4DF3-ADDB-126A68F50234}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64DD7E9-EBE0-4DF3-ADDB-126A68F50234}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

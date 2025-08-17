@@ -28,3 +28,23 @@ if (app.Environment.IsDevelopment())
 => Migration for The Identity Tables
 	Add-Migration CreateIdentityTables
 	Update-Database
+
+
+=> Enamble CORS (Inside API Project) (Add This to consume the api)
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", policy =>
+    {
+        policy.WithOrigins("https://localhost:7086")
+        .AllowAnyMethod()
+        .AllowAnyHeader();
+    });
+});
+
+app.UseCors("AllowSpecificOrigin");  // Add this 
+
+app.UseHttpsRedirection();
+
